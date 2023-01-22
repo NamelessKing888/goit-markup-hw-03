@@ -14,7 +14,7 @@ body {
     background-color: var(--primary-white-color);
 
 }
-
+/* utilities */
 h1,
 h2,
 h3,
@@ -34,7 +34,7 @@ ul {
 img {
     display: block;
 }
-/* Container */
+/* container */
 .container {
     width: 1158px;
     padding-left: 15px;
@@ -43,7 +43,7 @@ img {
     margin-right: auto;
 }
 
-/* Logo */
+/* logo */
 .logo-one {
     color: var(--active-color);
     font-family: Raleway;
@@ -69,7 +69,7 @@ img {
     border-bottom: 1px solid var(--cornflower-color);
 }
 
-/* Navigation */
+/* navigation */
 .navigation {
     display: flex;
     align-items: center;
@@ -84,7 +84,7 @@ img {
     color: var(--accent-color);
 }
 
-/* Menu */
+/* menu */
 .menu {
     display: flex;
     align-items: center;
@@ -131,7 +131,7 @@ img {
     text-align: center;
 }
 
-/* Footer */
+/* footer */
 .footer {
     background-color: var(--title-text-color);
 }
@@ -146,7 +146,7 @@ img {
     width: 264px;
 }
 
-/* Links */
+/* links */
 .link {
     text-decoration: none;
     line-height: 1.5;
@@ -164,7 +164,7 @@ img {
     margin-left: auto;
 }
 
-/* Buttons */
+/* buttons */
 .btn {
     cursor: pointer;
     font-weight: 500;
@@ -192,11 +192,8 @@ img {
     border: none;
 }
 
-/* Features Section */
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-} 
+/* features section */
+
 
 .features-list {
     display: flex;
@@ -248,7 +245,61 @@ img {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-/* Portfolio Section */
+
+/*---Team---*/
+.team-text {
+    padding: 32px 16px;
+    background-color: var(--primary-white-color);
+    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%);
+}
+.text-center {
+    text-align: center;
+}
+
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.features-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    margin-top: 8px;
+}
+
+/*---section---*/
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/*-- hidden--*/
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* portfolio section */
 
 .secondary-btn {
     font-size: 16px;
@@ -289,7 +340,7 @@ img {
 .portfolio-item {
     background-color: var(--primary-white-color);
     flex-basis: calc((100% - 2 * 24px) / 3);
-    
+
 }
 
 .portfolio-link {
@@ -306,54 +357,6 @@ img {
     border: 1px solid var(--cornflower-color);
     border-top: none;
 }
-/*---Team---*/
-.team-text {
-    padding: 32px 16px;
-    background-color: var(--primary-white-color);
-    box-shadow: 0px 1px 6px rgb(46 47 66 / 8%);
-}
-.text-center {
-    text-align: center;
-}
-
-.features-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.features-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-    margin-top: 8px;
-}
-
-/*---section---*/
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-}
-
-/*-- hidden--*/
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
-
 
 
 
