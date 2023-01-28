@@ -134,15 +134,17 @@ img {
 /* footer */
 .footer {
     background-color: var(--title-text-color);
+    padding: 100px 0;
 }
 
 .footer-text {
     color: var(--cornflower-color);
     margin-top: 16px;
+    line-height: 1.5;
 }
 
 .footer-container {
-    padding: 100px 0;
+    
     width: 264px;
 }
 
@@ -206,7 +208,7 @@ img {
 }
 
 .features-list,
-.work-items,
+.work-items
 .team-items,
 .filter-items {
     gap: 24px;
@@ -220,7 +222,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 72px auto 120px;
+    margin: 72px auto 0px;
 }
 
 .work-item {
